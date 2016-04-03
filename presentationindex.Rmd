@@ -1,0 +1,55 @@
+---
+title       : Course Project
+subtitle    : Shiny Application and Reproducible Pitch
+author      : Josh Kennedy
+job         : Pitch Consultant
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : solarized_light      # 
+widgets     : []            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+ext_widgets : {rCharts: [libraries/nvd3]}
+---
+## Course Project
+1. This is the final presentation for the COurse Project of the "Developing data products" course
+2.   This course is part of the "Data Science specialization"
+3. The project consists in two activities:
+  -  Create a Shiny application
+  -  Create a presentation in Slidify or Rstudio Presenter to pitch for the application.
+
+
+
+--- .
+## Introduction
+- Interactive web application framework for R
+- Create and share applications with others
+- Open Source (GPL v3) R package
+- Expects no knowledge of web technologies like HTML, CSS, or JavaScript.
+- Can create autonomous webpages, or embedded interactive widgets in markdown
+- A shiny app consist of two parts. A user Interface and a server
+
+```{r, echo=FALSE}
+str(iris)
+```
+
+
+--- .
+## Interactive application
+Figure's display in the last slide comes from the shiny app
+
+https://kennej18.shinyapps.io/Temp1_project/
+
+--- .
+## Conclusion
+
+Summary of results
+```{r,echo=FALSE}
+summary(iris)
+```
+
+
+
+
+
+
